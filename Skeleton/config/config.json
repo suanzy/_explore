@@ -1,0 +1,8 @@
+{
+    "customer_config_path":"C:/Users/34389/Documents/Repo/simpy_explore/Skeleton/config/customer_config.json",
+    "product_config_path":"C:/Users/34389/Documents/Repo/simpy_explore/Skeleton/config/product_config.json",
+    "facility_config_path": "C:/Users/34389/Documents/Repo/simpy_explore/Skeleton/config/facility_config.json",
+    "initial_config_path": "C:/Users/34389/Documents/Repo/simpy_explore/Skeleton/config/initial_config.json",
+    "log_path":"C:/Users/34389/Documents/Repo/simpy_explore/Skeleton/log/",
+    "result_path": "C:/Users/34389/Documents/Repo/simpy_explore/Skeleton/result/"
+}

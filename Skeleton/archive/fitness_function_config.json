@@ -1,0 +1,25 @@
+{
+    "FIT_FUNC_1": [
+        {
+            "description": "Quadratic  profit  maximizing objective",
+            "alpha": 300,
+            "beta": 100,
+            "y": 20000,
+            "Dmin":123,
+            "wcf":123,
+            "wca":123,
+            "dca":123,
+            "dpw":123,
+            "x":123,
+            "fta":123,
+            "atc":123
+        }
+    ],
+    "FIT_FUNC_2": [
+        {
+            "description": "fitness_function 2",
+            "leadtime": 300,
+            "costperunit": 100
+        }
+    ]
+}

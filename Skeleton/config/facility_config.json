@@ -1,0 +1,75 @@
+{
+    "at":{
+        "at_1": {
+            "description": "Assembly & Test Facility 1",
+            "week_capacity": 8500,
+            "cost_wafer": 110,
+            "cost_kdie": 120,
+            "cost_shipment":{
+                "cust1": 53,
+                "cust2": 51,
+                "cust3": 60,
+                "cust4": 58,
+                "cust5": 55                
+            }
+        },
+        "at_2": {
+            "description": "Assembly & Test Facility 2",
+            "week_capacity": 10000,
+            "cost_wafer": 100,
+            "cost_kdie": 90,
+            "cost_shipment": {
+                "cust1": 53,
+                "cust2": 51,
+                "cust3": 60,
+                "cust4": 58,
+                "cust5": 55                
+            }
+        },
+        "at_3": {
+            "description": "Assembly & Test Facility 3",
+            "week_capacity": 9000,
+            "cost_wafer": 115,
+            "cost_kdie": 115,
+            "cost_shipment": {
+                "cust1": 58,
+                "cust2": 56,
+                "cust3": 56,
+                "cust4": 52,
+                "cust5": 51                
+            }
+        }
+    },
+    "fab":{
+        "fab_1": {
+            "description": "Fab 1",
+            "week_capacity": 10000,
+            "min_utilization": 0.60,
+            "cost_shipment": {
+                "at1": 30,
+                "at2": 30,
+                "at3": 30
+            }
+        },
+        "fab_2": {
+            "description": "Fab 2",
+            "week_capacity": 7800,
+            "min_utilization": 0.65,
+            "cost_shipment": {
+                "at1": 75,
+                "at2": 75,
+                "at3": 75                
+            }
+        },
+        "fab_3":{
+            "description": "Fab 3",
+            "week_capacity": 7500,
+            "min_utilization": 0.70,
+            "cost_shipment": {
+                "at1": 50,
+                "at2": 55,
+                "at3": 50                
+            }
+        }
+    }
+}

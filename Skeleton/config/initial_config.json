@@ -1,0 +1,74 @@
+{
+    "demand":{
+        "cust_1":{
+            "prod_1":100000,
+            "prod_2":1000,
+            "prod_3": 0,
+            "prod_4": 0,
+            "prod_5": 0
+        },
+        "cust_2": {
+            "prod_1": 0,
+            "prod_2": 100000,
+            "prod_3": 1000,
+            "prod_4": 0,
+            "prod_5": 10000
+        },
+        "cust_3": {
+            "prod_1": 0,
+            "prod_2": 100000,
+            "prod_3": 1000,
+            "prod_4": 10000,
+            "prod_5": 100000
+        },
+        "cust_4": {
+            "prod_1": 100000,
+            "prod_2": 0,
+            "prod_3": 0,
+            "prod_4": 0,
+            "prod_5": 1000
+        },
+        "cust_5": {
+            "prod_1": 0,
+            "prod_2": 100000,
+            "prod_3": 0,
+            "prod_4": 1000,
+            "prod_5": 0
+        }
+    } ,
+    "constraint":{
+        "constraint1": {
+            "description": "Demand range for each product and each customer - Equation 2",
+            "weight": 1,
+            "cost": 0.3
+        },
+        "constraint2": {
+            "description": "Fab capacity range for each fab - Equation 3",
+            "weight": 1,
+            "cost": 0.3
+        },
+        "constraint3": {
+            "description": "Upper limit of AT capacity - Equation 4",
+            "weight": 1,
+            "cost": 0.3
+        },
+        "constraint4": {
+            "description": "The flow balancing constraints on wafers transformed into units(die) - Equation 5",
+            "weight": 1,
+            "cost": 0.3
+        },
+        "constraint5":{
+            "description": "Fab product qualifications - Equation 6",
+            "weight": 1,
+            "cost": 0.3
+        }
+    },
+    "decision variable":{
+        "x":{
+            "description": "The amount of wafers of product i shipped from fab j to AT v"
+        },
+        "y":{
+            "description":"The amount of units of product i supplied from AT v to customer k"
+        }
+    }
+}

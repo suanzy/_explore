@@ -1,0 +1,267 @@
+{
+    "cust_1": {
+        "description": "Customer 1",
+        "prod_1": {
+            "demand": {
+                "min": 10237500,
+                "max": 12285000
+            },
+            "price_per_die": {
+                "min": 57,
+                "max": 68
+            }
+        },
+        "prod_2": {
+            "demand": {
+                "min": 2047500,
+                "max": 2313675
+            },
+            "price_per_die": {
+                "min": 67,
+                "max": 71
+            }
+        },
+        "prod_3": {
+            "demand": {
+                "min": 0,
+                "max": 0
+            },
+            "price_per_die": {
+                "min": 0,
+                "max": 0
+            }
+        },
+        "prod_4": {
+            "demand": {
+                "min": 0,
+                "max": 0
+            },
+            "price_per_die": {
+                "min": 0,
+                "max": 0
+            }
+        },
+        "prod_5": {
+            "demand": {
+                "min": 0,
+                "max": 0
+            },
+            "price_per_die": {
+                "min": 0,
+                "max": 0
+            }
+        }
+    },
+    "cust_2": {
+        "description": "Customer 2",
+        "prod_1": {
+            "demand": {
+                "min": 0,
+                "max": 0
+            },
+            "price_per_die": {
+                "min": 0,
+                "max": 0
+            }
+        },
+        "prod_2": {
+            "demand": {
+                "min": 10725000,
+                "max": 14657500
+            },
+            "price_per_die": {
+                "min": 97,
+                "max": 127
+            }
+        },
+        "prod_3": {
+            "demand": {
+                "min": 21092500,
+                "max": 31460000
+            },
+            "price_per_die": {
+                "min": 91,
+                "max": 121
+            }
+        },
+        "prod_4": {
+            "demand": {
+                "min": 0,
+                "max": 0
+            },
+            "price_per_die": {
+                "min": 0,
+                "max": 0
+            }
+        },
+        "prod_5": {
+            "demand": {
+                "min": 6077500,
+                "max": 8937500
+            },
+            "price_per_die": {
+                "min": 104,
+                "max": 134
+            }
+        }
+    },
+    "cust_3": {
+        "description": "Customer 3",
+        "prod_1":{
+            "demand":{
+                "min":0,
+                "max":0
+            },
+            "price_per_die":{
+                "min": 0,
+                "max": 0
+            }
+        },
+        "prod_2": {
+            "demand": {
+                "min": 13650000,
+                "max": 14430000
+            },
+            "price_per_die": {
+                "min": 94,
+                "max": 98
+            }
+        },
+        "prod_3": {
+            "demand": {
+                "min": 15600000,
+                "max": 24960000
+            },
+            "price_per_die": {
+                "min": 86,
+                "max": 106
+            }
+        },
+        "prod_4": {
+            "demand": {
+                "min": 5850000,
+                "max": 6630000
+            },
+            "price_per_die": {
+                "min": 100,
+                "max": 112
+            }
+        },
+        "prod_5": {
+            "demand": {
+                "min": 23400000,
+                "max": 37050000
+            },
+            "price_per_die": {
+                "min": 79,
+                "max": 99
+            }
+        }
+    },
+    "cust_4": {
+        "description": "Customer 4",
+        "prod_1": {
+            "demand": {
+                "min": 35100000,
+                "max": 53300000
+            },
+            "price_per_die": {
+                "min": 5.5,
+                "max": 6.5
+            }
+        },
+        "prod_2": {
+            "demand": {
+                "min": 0,
+                "max": 0
+            },
+            "price_per_die": {
+                "min": 0,
+                "max": 0
+            }
+        },
+        "prod_3": {
+            "demand": {
+                "min": 0,
+                "max": 0
+            },
+            "price_per_die": {
+                "min": 0,
+                "max": 0
+            }
+        },
+        "prod_4": {
+            "demand": {
+                "min": 0,
+                "max": 0
+            },
+            "price_per_die": {
+                "min": 0,
+                "max": 0
+            }
+        },
+        "prod_5": {
+            "demand": {
+                "min": 23400000,
+                "max": 36400000
+            },
+            "price_per_die": {
+                "min": 4,
+                "max": 5
+            }
+        }
+    },
+    "cust_5": {
+        "description": "Customer 5",
+        "prod_1": {
+            "demand": {
+                "min": 0,
+                "max": 0
+            },
+            "price_per_die": {
+                "min": 0,
+                "max": 0
+            }
+        },
+        "prod_2": {
+            "demand": {
+                "min": 3250000,
+                "max": 3770000
+            },
+            "price_per_die": {
+                "min": 630,
+                "max": 650
+            }
+        },
+        "prod_3": {
+            "demand": {
+                "min": 0,
+                "max": 0
+            },
+            "price_per_die": {
+                "min": 0,
+                "max": 0
+            }
+        },
+        "prod_4": {
+            "demand": {
+                "min": 1560000,
+                "max": 1690000
+            },
+            "price_per_die": {
+                "min": 610,
+                "max": 630
+            }
+        },
+        "prod_5": {
+            "demand": {
+                "min": 0,
+                "max": 0
+            },
+            "price_per_die": {
+                "min": 0,
+                "max": 0
+            }
+        }
+    }
+}

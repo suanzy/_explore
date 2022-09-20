@@ -1,0 +1,27 @@
+{
+    "prod_1": {
+        "description": "Product 1",
+        "capacity_trade_ratio": 1,
+        "die_per_wafer": 630
+    },
+    "prod_2": {
+        "description": "Product 2",
+        "capacity_trade_ratio": 1,
+        "die_per_wafer": 550
+    },
+    "prod_3": {
+        "description": "Product 3",
+        "capacity_trade_ratio": 1,
+        "die_per_wafer": 600
+    },
+    "prod_4": {
+        "description": "Product 4",
+        "capacity_trade_ratio": 0.9,
+        "die_per_wafer": 2000
+    },
+    "prod_5": {
+        "description": "Product 5",
+        "capacity_trade_ratio": 1.2,
+        "die_per_wafer": 100
+    }
+}

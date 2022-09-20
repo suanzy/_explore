@@ -1,0 +1,37 @@
+{
+    "CSTR_1": [
+        {
+            "description": "Demand  range  for  each  product  and  each  customer",
+            "Dmin":123,
+            "Dmax":123
+        }
+    ],
+    "CSTR_2": [
+        {
+            "description": "Fab  capacity  range  for  each  fab",
+            "cfmin": 300,
+            "costperunit": 100
+        }
+    ],
+    "CSTR_3": [
+        {
+            "description": "upper limits on AT capacity for each AT site",
+            "leadtime": 300,
+            "costperunit": 100
+        }
+    ],
+    "CSTR_4": [
+        {
+            "description": " flow  balancing  constraints  on  wafers  transformed  into  units  (die)",
+            "leadtime": 300,
+            "costperunit": 100
+        }
+    ],
+    "CSTR_5": [
+        {
+            "description": "fab product qualifications",
+            "leadtime": 300,
+            "costperunit": 100
+        }
+    ]
+}
